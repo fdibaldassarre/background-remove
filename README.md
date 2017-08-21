@@ -27,7 +27,7 @@ and then
 ./train-identify.py
 ```
 
-## Training local
+### Training local
 
 Run
 ```sh
@@ -38,7 +38,7 @@ and then
 ./train-local.py
 ```
 
-## Training remove
+### Training remove
 
 Run
 ```sh
