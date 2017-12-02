@@ -17,6 +17,8 @@ def resizeIn(base_folder, target_folder, size):
     os.makedirs(target_folder)
     # Iterate over the samples
     for filename in os.listdir(base_folder):
+        if filename.startswith("."):
+    	    continue
         path = os.path.join(base_folder, filename)
         target = os.path.join(target_folder, filename)
         image = Image.open(path)
